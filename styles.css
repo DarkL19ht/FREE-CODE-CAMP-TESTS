@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+h1,p {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+input,select {
+  width: 100%;
+  
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: unset;
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+}
+
+.toggle{
+  text-align: start;
+  margin-bottom: 0;
+}
+
+form {
+  max-width: 400px;
+  min-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+label:last-of-type {
+  margin-top: 1rem
+}
+
+#submit {
+  background-color: white;
+  color: black;
+ 
+}
